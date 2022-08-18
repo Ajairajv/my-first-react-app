@@ -1,11 +1,16 @@
+import './index.css';
+import Todo from './components/Todo';
+
 function App() {
-  return <div>
+  return (
+  <div>
     <h1>My Todos</h1>
-    <div>
-      <h2>TITLE</h2>
-      <button>DELETE</button>
-    </div>
-  </div>;
+    <Todo/>
+    <Todo/>
+    <Todo/>
+
+  </div>
+  );
 
 }
 
